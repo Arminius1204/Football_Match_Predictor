@@ -1,0 +1,14 @@
+# Floodlit-pitch theme for app.py. Colours mirror src/charts.py.
+[theme]
+base = "dark"
+primaryColor = "#D9B44A"            # brass: home side, focus, active controls
+backgroundColor = "#0E3B2C"         # turf
+secondaryBackgroundColor = "#16503B"
+textColor = "#EEF1EA"               # chalk
+font = "sans serif"                 # Barlow is loaded in app.py (Google Fonts)
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

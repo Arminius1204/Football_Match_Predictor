@@ -1,0 +1,8 @@
+# Everything for football_ann.py (the assignment), train_app_model.py and the tests.
+#   pip install -r requirements-train.txt
+-r requirements.txt
+torch>=2.0
+scikit-learn
+scipy
+matplotlib
+pytest

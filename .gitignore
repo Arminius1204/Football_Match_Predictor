@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local state (.streamlit/config.toml stays tracked)
+.streamlit/secrets.toml
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Scratch and temp
+scratch/
+tmp/
+*.log
+.env

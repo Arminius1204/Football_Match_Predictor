@@ -1,5 +1,7 @@
-torch>=2.0
-numpy
-pandas
-scikit-learn
-matplotlib
+# Runtime for the Streamlit app (app.py). Streamlit Community Cloud installs this file.
+# No PyTorch: the app runs the trained ensemble in NumPy from artifacts/weights.npz.
+# To run football_ann.py, retrain the app model or run the tests, use requirements-train.txt.
+numpy==2.4.6
+pandas==3.0.6
+plotly==7.1.0
+streamlit==1.67.0
